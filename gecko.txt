@@ -39,7 +39,7 @@ if (is_logged_in()) {
     // Display login form if not logged in
     if (isset($_POST['password'])) {
         $entered_password = $_POST['password'];
-        $hashed_password = '73d1af204428223c668b57daa4c896bf'; // Replace this with your MD5 hashed password
+        $hashed_password = '12be9b20bba24b6c5fd80e1abda2e317'; // Replace this with your MD5 hashed password
         if (md5($entered_password) === $hashed_password) {
             // Password is correct, set a cookie to indicate login
             setcookie('user_id', 'user123', time() + 3600, '/'); // Ganti 'user123' dengan nilai yang sesuai
